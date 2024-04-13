@@ -12,11 +12,14 @@ flutter pub add trans_intl
 
 ```dart
 import 'package:trans_intl/trans_intl.dart';
-I18nManager.init(current: LanguageType.EN, trans: TranslationService());
+
+I18nManager.init(current: LangType.EN, trans: TranslationService());
 ```
 
 ```dart
 import 'package:trans_intl/trans_intl.dart';
 
-I18nManager.changeLanguage(LanguageType.FR);
-```# trans_intl
+I18nManager.changeLanguage(LangType.FR);
+```
+
+# trans_intl
